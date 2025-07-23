@@ -1,2 +1,2 @@
 CollectionName,AssetName,AssetFQN,AssetDescription,IsColumn,ParentAssetFQN,OwnerId,Guid
-Data Intelligence ADLS,Syslog_VoIP_CDR_SBC,https://cloudbiadlgen2prod.dfs.core.windows.net/fs-cbi-insights-prod/Deltalake/harmonized/Network_Log/Syslog_VoIP_CDR_SBC/General/{publishdate}/{activerecord}/{SparkPartitions}.snappy.parquet,This asset has Syslog_VoIP_CDR_SBC,No,NA,0cb09ad5-d23c-4945-80a6-bb55683afbdc,9822db3c-9f2c-420b-85f8-48f0294dfe7d
+ADLS,DeviceInventory,https://xyz.dfs.core.windows.net/{publishdate}/{activerecord}/{SparkPartitions}.snappy.parquet,This asset has XYZ information,No,NA,,
