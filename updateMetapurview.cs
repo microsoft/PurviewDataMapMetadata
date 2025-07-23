@@ -32,7 +32,7 @@ public class Function1
     private readonly ILogger _logger;
     private readonly string _csvPath = Path.Combine(AppContext.BaseDirectory, "assetinfo.csv");
     // Replace with your actual Purview account endpoint from Azure Portal
-    private readonly string _purviewEndpoint = "https://purview-msft.purview.azure.com";
+    private readonly string _purviewEndpoint = "https://<PurviewID>.purview.azure.com";
     private readonly HttpClient _httpClient;
 
     public Function1(ILoggerFactory loggerFactory)
