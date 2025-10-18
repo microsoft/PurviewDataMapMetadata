@@ -88,6 +88,9 @@ Set these in your `local.settings.json` or Azure Function App settings:
 CollectionName,AssetFQN,AssetName,AssetDescription,OwnerId,ParentAssetFQN,IsColumn,Guid
 ExampleCollection,example-fqn,ExampleAsset,Description,owner@example.com,parent-fqn,false,1234-5678
 
+Related column Metadata code is contributed by Surya Prakash Munigoti
+
+
 ## Notes
 - Make sure the Azure Function App has the necessary permissions to access both Azure Purview and Blob Storage.
 - The function logs all operations for diagnostics.
